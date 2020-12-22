@@ -45,7 +45,7 @@ def transform_row(row):
         'Account': row['Account'],
         'Friendly Name': row['Friendly Name'],
         'Description': row['Description'],
-        'Cost': row['Cost']
+        'Cost': str(round(cost, 2))
     }
     return output
 
